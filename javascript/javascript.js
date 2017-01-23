@@ -25,7 +25,7 @@ $(document).ready(function(){
 });
 
 var page = window.location.href.split("/")[3]; // after the slash at the end of the domain name
-console.log(page);
+
 $('header').ready(function() {
   if (page === "index.html")
     $(".index").addClass("current-page");
@@ -33,8 +33,6 @@ $('header').ready(function() {
     $(".portfolio").addClass("current-page");
   else if (page === "resume.html")
     $(".resume").addClass("current-page");
-  else if (page === "about.html")
-    $(".about").addClass("current-page");
   else
     $(".contact").addClass("current-page");
 });
