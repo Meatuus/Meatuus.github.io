@@ -24,7 +24,7 @@ $(document).ready(function(){
   });
 });
 
-var page = window.location.href.split("/")[8]; // after the slash at the end of the domain name
+var page = window.location.href.split("/")[3]; // after the slash at the end of the domain name
 console.log(page);
 $('header').ready(function() {
   if (page === "index.html")
