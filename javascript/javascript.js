@@ -25,7 +25,7 @@ $(document).ready(function(){
 });
 
 var page = window.location.href.split("/")[8]; // after the slash at the end of the domain name
-
+console.log(page);
 $('header').ready(function() {
   if (page === "index.html")
     $(".index").addClass("current-page");
