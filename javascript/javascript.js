@@ -33,7 +33,7 @@ $('header').ready(function() {
     $(".portfolio").addClass("current-page");
   else if (page === "resume.html")
     $(".resume").addClass("current-page");
-  else
+  else if (page === "contact.html")
     $(".contact").addClass("current-page");
 });
 
