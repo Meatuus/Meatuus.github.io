@@ -527,7 +527,10 @@ ul.skills-list {
     width: 100%;
     font-size: 15px;
 }
-
+.employer {
+    padding: 10px 0px;
+    border-bottom: 1px solid #494d4e;
+}
 .resume_container h2 {
     font-size: 20px;
     padding-bottom: 10px;
@@ -540,7 +543,8 @@ ul.skills-list {
 
 .resume_container h4 {
     padding: 10px 0px;
-    color: rgb(221, 107, 107);
+    color: #2196F3;
+    font-style: italic;
 }
 
 .skills a {
@@ -561,13 +565,13 @@ ul.skills-list {
     font-size: 18px;
 }
 i.fa.fa-print {
-    float: none;
+    /*float: none;
     position: fixed;
     left: 25px;
     top: 200px;
     font-size: 50px;
     width: 50px;
-    cursor: pointer;
+    cursor: pointer;*/
 }
 .resume-pdf a {
     position: relative;
@@ -580,11 +584,16 @@ i.fa.fa-print {
 
 .contact_info_container {
     overflow: hidden;
+    width: 350px;
+    margin: auto;
 }
-
+.contact_info_container a i {
+    font-size: 35px;
+    padding: 0px 5px;
+}
 .contact_info_container h2:nth-child(1) {
-    height: 70px;
-    padding-top: 20px;
+    /*height: 70px;
+    padding-top: 20px;*/
 }
 
 /*=================== Portfolio page ==================*/
